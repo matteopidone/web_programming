@@ -1,0 +1,328 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  color: rgba(26, 26, 26, .7);
+  font-size: 20px;
+
+  
+}
+
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-size: .875em;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgba(0, 0, 0, .3);
+}
+
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  height: 750px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("images/StudentEngagement_Image.jpg");
+}
+
+nav a{
+  cursor: pointer;
+  border-radius: 20px;
+  border: 2px solid whitesmoke;
+  padding: 3px;
+  margin: 2px;
+}
+
+header h1 { 
+  position: absolute;
+  border-radius: 5px;
+  font-size: 1.7em;
+  color:black;
+  background-color: cornsilk; 
+  margin-top: 20%;
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+section{
+  background-color: whitesmoke;
+  margin: 100px 50px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#_1{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.article{
+  margin-top: 50px;
+  width: calc(50% - 3px);
+  font-family: 'Nanum Gothic', sans-serif;
+  height: auto;
+}
+
+.details{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.75em;
+  font-style: italic;
+letter-spacing: 1.5px;
+color: rgb(59, 160, 173);
+
+}
+
+.sect1{
+  line-height: 1.4;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+  font-size: 1.25em;
+  font-style: inherit;
+
+}
+
+#_2{  
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.container{
+  margin: 2px 0 2px 0;
+  font-size: 1em;
+  width: calc(50% - 10px);
+  height: auto; 
+  text-align: left;
+
+}
+
+.head, #_3{
+  font-size:1.5em;
+  font-style: italic;
+letter-spacing: 1px;
+color: rgb(59, 160, 173);
+}
+
+#content{
+  font-weight: 300;
+  margin-top: 5px;
+ line-height: 1.4;
+  font-size: 1.25em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#content2{
+
+ font-size: 1em;
+ font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+#_3{
+  margin: 20px 0 20px 0;
+}
+
+#_4{
+  display: flex;
+  justify-content: space-around; 
+}
+
+#_4 a {
+  width: calc(100%/4 - 10px);
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color:white;
+  border: 2px solid gainsboro;
+
+}
+
+.items1{
+  background-image: url("images/sheffield_university_rmjm030408_10.jpg");
+}
+
+.items2{
+  background-image: url("images/20151023_CU_5541-1297x810.jpg");
+}
+
+.items3{
+  background-image: url("images/26662998-group-of-students-studying-together-in-quad-on-college-campus.jpg");
+}
+
+.items4{
+  background-image: url("images/images2546-5d2e3949b0b40-1024x683.jpg");
+}
+
+
+footer {
+  background-color: black;
+  height: 200px;
+}
+
+#overlay{
+background-color: rgba(0, 0, 0, .3);
+position: absolute;
+top: 0;
+bottom: 0;
+height: 100%;
+width: 100%;
+z-index: 1;
+}
+
+
+#menumobile{
+  display: none;
+}
+
+#menumobile div{
+  width: 25px;
+  height: 3px;
+  background-color: whitesmoke;
+  margin: 5px 0;
+}
+
+
+#menu a{
+  font-family: 'Nanum Gothic', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+
+
+#title{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1.71em;
+  color: whitesmoke;
+}
+
+a h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: whitesmoke; 
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.botton{
+
+  font-style:oblique;
+  margin-top: 15px;
+  border: 2px solid gray;
+  background-color: whitesmoke;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 6px;
+  display: inline-block;
+
+ 
+}
+
+.container .botton{
+  margin-top: 0px;
+
+ 
+}
+
+.botton:hover {
+  background-color: gray; 
+  color: whitesmoke;
+}
+
+.black{
+  color:black;
+}
+
+.black:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+
+img{
+  width: 80%;
+}
+
+
+footer div{
+  color: whitesmoke;
+  font-size: 1.5em;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1.5px;
+  padding: 2%;
+
+
+}
+
+@media (max-width: 500px) {
+  body{
+    font-size: 15px;
+  }
+  header {
+    height: 300px;
+ 
+  }
+
+ #_4, #_2, #_1{
+  flex-direction: column;
+}
+ 
+  .container{
+    width: auto;
+  }
+
+ section{
+   margin: 10px 5px 10px 5px;
+
+  }
+
+ #menumobile{
+    display: block;
+  }
+
+  #menu{
+    display: none;
+    
+  }
+  .container{
+    margin: 2px;
+ 
+  }
+
+  .article, #_4 a{
+    width: auto;
+    height: auto;
+    margin: 2px;
+ 
+  }
+
+  #_3{
+    margin: 10px 0 5px 0;
+
+  }
+  img{
+    width: 60%;
+  }
+  footer{
+    height: 150px;
+  }
+}
